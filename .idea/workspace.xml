@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e56f2b97-935f-4685-afc3-542cc5aea7f4" name="Changes" comment="Establishing the implementation of the Main and data class">
-      <change afterPath="$PROJECT_DIR$/src/DataReader.java" afterDir="false" />
+    <list default="true" id="e56f2b97-935f-4685-afc3-542cc5aea7f4" name="Changes" comment="Implementation of the data reader class along withthe reclassified main class, filtering the data">
+      <change afterPath="$PROJECT_DIR$/src/ChartPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DetailsPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilterPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StatsPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TablePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyDataClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyDataClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +46,9 @@
   "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2o5cN1EQcr1ItjU2NGVb67Tu5ku" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -77,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730162834123</updated>
-      <workItem from="1730162835223" duration="2553000" />
+      <workItem from="1730162835223" duration="4573000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
@@ -95,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730167609616</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementation of the data reader class along withthe reclassified main class, filtering the data">
+      <option name="closed" value="true" />
+      <created>1730168484189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730168484190</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <MESSAGE value="Establishing the implementation of the Main and data class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Establishing the implementation of the Main and data class" />
+    <MESSAGE value="Implementation of the data reader class along withthe reclassified main class, filtering the data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of the data reader class along withthe reclassified main class, filtering the data" />
   </component>
 </project>

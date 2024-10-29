@@ -16,7 +16,7 @@ public class DataReader
         try (BufferedReader br = new BufferedReader(new FileReader(filePath)))
         {
             String line;
-            // Skipping header
+            //Skipping header
             br.readLine();
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
