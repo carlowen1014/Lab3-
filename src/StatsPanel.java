@@ -2,6 +2,7 @@
 // Lab 3
 // StatsPanel Class
 // This class updates with average, max, and min values
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.List;

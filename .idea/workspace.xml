@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e56f2b97-935f-4685-afc3-542cc5aea7f4" name="Changes" comment="Final Implementations of all classes">
-      <change beforePath="$PROJECT_DIR$/src/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApplication.java" afterDir="false" />
+    <list default="true" id="e56f2b97-935f-4685-afc3-542cc5aea7f4" name="Changes" comment="Fixing the main class and implementing and processing the TablePanel class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChartPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChartPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FilterPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FilterPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StatsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatsPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730162834123</updated>
-      <workItem from="1730162835223" duration="4882000" />
+      <workItem from="1730162835223" duration="6136000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
@@ -110,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730170797438</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixing the main class and implementing and processing the TablePanel class">
+      <option name="closed" value="true" />
+      <created>1730171090499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730171090499</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +132,7 @@
     <MESSAGE value="Establishing the implementation of the Main and data class" />
     <MESSAGE value="Implementation of the data reader class along withthe reclassified main class, filtering the data" />
     <MESSAGE value="Final Implementations of all classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Implementations of all classes" />
+    <MESSAGE value="Fixing the main class and implementing and processing the TablePanel class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing the main class and implementing and processing the TablePanel class" />
   </component>
 </project>

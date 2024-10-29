@@ -3,7 +3,6 @@
 // FilterPanel Class
 // This class contains filter options that update the table when toggled.
 
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
