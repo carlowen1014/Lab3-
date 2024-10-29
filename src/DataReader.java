@@ -4,30 +4,31 @@
 // This class reads and parses the CSV data file
 
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-//Reads data from a CSV file and returns a list of MyDataClass objects
-public class DataReader
-{
-    public List<MyDataClass> readData(String filePath)
-    {
+public class DataReader {
+    public List<MyDataClass> readData(String filePath) {
         List<MyDataClass> dataList = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath)))
-        {
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
-            //Skipping header
-            br.readLine();
             while ((line = br.readLine()) != null) {
+                // Parse each line, assuming CSV format with three columns
                 String[] values = line.split(",");
-                MyDataClass data = new MyDataClass(values[0], values[1], Double.parseDouble(values[2]));
-                dataList.add(data);
+                String category = values[0];
+                String date = values[1];
+                double value = Double.parseDouble(values[2]);
+                dataList.add(new MyDataClass(category, date, value));
             }
-        } catch (IOException e)
-
-        {
-            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            System.err.println("File not found: " + filePath);
+        } catch (IOException e) {
+            System.err.println("Error reading file: " + e.getMessage());
+        } catch (NumberFormatException e) {
+            System.err.println("Error parsing number: " + e.getMessage());
         }
+
         return dataList;
     }
 }
