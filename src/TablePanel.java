@@ -4,17 +4,15 @@
 //This class displays data in a table with sorting capabilities
 
 import javax.swing.*;
-import javax.swing.table.*;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
 import java.util.List;
 
-//Displays data in a table
-public class TablePanel extends JPanel
-{
+public class TablePanel extends JPanel {
     private JTable table;
     private DefaultTableModel tableModel;
 
-    public TablePanel(List<MyDataClass> data)
-    {
+    public TablePanel(List<MyDataClass> data) {
         tableModel = new DefaultTableModel(new String[]{"Category", "Date", "Value"}, 0);
         table = new JTable(tableModel);
         updateTable(data);
@@ -22,14 +20,16 @@ public class TablePanel extends JPanel
         add(new JScrollPane(table), BorderLayout.CENTER);
     }
 
-    //Updates the table with new data
-    public void updateTable(List<MyDataClass> data)
-    {
+    // Getter for the JTable to allow MainApplication to access it
+    public JTable getTable() {
+        return table;
+    }
+
+    // Updates the table with new data
+    public void updateTable(List<MyDataClass> data) {
         tableModel.setRowCount(0);  // Clear existing data
-        for (MyDataClass item : data)
-        {
+        for (MyDataClass item : data) {
             tableModel.addRow(new Object[]{item.getCategory(), item.getDate(), item.getValue()});
         }
     }
 }
-

@@ -13,7 +13,7 @@ public class MainApplication extends JFrame
     private TablePanel tablePanel;
     private FilterPanel filterPanel;
     private StatsPanel statsPanel;
-    private ChartPanelWrapper chartPanel;
+    private ChartPanel chartPanel;
     private DetailsPanel detailsPanel;
     private DataProcessor dataProcessor;
 
@@ -24,7 +24,7 @@ public class MainApplication extends JFrame
         tablePanel = new TablePanel(data);
         filterPanel = new FilterPanel(e -> applyFilters());
         statsPanel = new StatsPanel(data);
-        chartPanel = new ChartPanelWrapper(data);
+        chartPanel = new ChartPanel(data);
         detailsPanel = new DetailsPanel();
 
         tablePanel.getTable().getSelectionModel().addListSelectionListener(e ->

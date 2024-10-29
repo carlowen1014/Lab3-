@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e56f2b97-935f-4685-afc3-542cc5aea7f4" name="Changes" comment="Implementation of the data reader class along withthe reclassified main class, filtering the data">
-      <change afterPath="$PROJECT_DIR$/src/ChartPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DetailsPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StatsPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TablePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyDataClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyDataClass.java" afterDir="false" />
+    <list default="true" id="e56f2b97-935f-4685-afc3-542cc5aea7f4" name="Changes" comment="Final Implementations of all classes">
+      <change beforePath="$PROJECT_DIR$/src/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730162834123</updated>
-      <workItem from="1730162835223" duration="4573000" />
+      <workItem from="1730162835223" duration="4882000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
@@ -110,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730168484190</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Final Implementations of all classes">
+      <option name="closed" value="true" />
+      <created>1730170797438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730170797438</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +120,7 @@
     <MESSAGE value="First" />
     <MESSAGE value="Establishing the implementation of the Main and data class" />
     <MESSAGE value="Implementation of the data reader class along withthe reclassified main class, filtering the data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of the data reader class along withthe reclassified main class, filtering the data" />
+    <MESSAGE value="Final Implementations of all classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Implementations of all classes" />
   </component>
 </project>
