@@ -1,17 +1,20 @@
 // Carl Owen
 // Lab 3
-// Main Class
-// This class
+// DataClass Class
+// This class Represents the data structure, with fields corresponding
+// to the columns in your CSV file.
 
 
 // Represents a single data entry in the dataset
-public class MyDataClass {
+public class MyDataClass
+{
     private String category;
     private String date;
     private double value;
 
     // Constructor to initialize data fields
-    public MyDataClass(String category, String date, double value) {
+    public MyDataClass(String category, String date, double value)
+    {
         this.category = category;
         this.date = date;
         this.value = value;

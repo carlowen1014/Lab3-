@@ -1,7 +1,8 @@
 // Carl Owen
 // Lab 3
 // Main Class
-// This class
+// This class is the main driver of the program and
+// sets up to run the GUI
 
 import java.awt.*;
 import java.util.List;
